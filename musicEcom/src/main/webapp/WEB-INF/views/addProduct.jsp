@@ -10,8 +10,7 @@
 
             <p class="lead">Fill the below information to add a product:</p>
         </div>
-</div>
-</div>
+
         <form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct"
                    method="post" commandName="product" enctype="multipart/form-data">
             <div class="form-group">
@@ -72,5 +71,9 @@
         <a href="<c:url value="/admin/productInventory" />" class="btn btn-default">Cancel</a>
 
     </form:form>
-
+</div>
+<div class="container">
 <%@ include file="/WEB-INF/views/template/footer.jsp" %>
+</div>
+
+</div>
