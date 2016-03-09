@@ -14,6 +14,9 @@
         </h3>
 
         <p>Here you can view, check and modify the product inventory!</p>
-
-
+</div>
+<div class="container">
 <%@ include file="/WEB-INF/views/template/footer.jsp" %>
+</div>
+
+</div>

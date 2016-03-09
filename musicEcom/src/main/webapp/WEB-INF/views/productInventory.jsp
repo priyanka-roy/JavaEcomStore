@@ -36,7 +36,11 @@
                 </tr>
             </c:forEach>
         </table>
-
+</div>
         <a href="<spring:url value="/admin/productInventory/addProduct" />" class="btn btn-primary">Add Product</a>
-
+</div>
+<div class="container">
 <%@ include file="/WEB-INF/views/template/footer.jsp" %>
+</div>
+
+</div>

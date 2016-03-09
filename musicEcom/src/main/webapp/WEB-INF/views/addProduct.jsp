@@ -10,7 +10,8 @@
 
             <p class="lead">Fill the below information to add a product:</p>
         </div>
-
+</div>
+</div>
         <form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct"
                    method="post" commandName="product" enctype="multipart/form-data">
             <div class="form-group">
