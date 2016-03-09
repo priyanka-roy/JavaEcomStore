@@ -74,7 +74,7 @@
             <a href="<c:url value="/admin/productInventory" />" class="btn btn-default">Cancel</a>
 
         </form:form>
-     
+ </div>    
 
 <div class="container">
 <%@ include file="/WEB-INF/views/template/footer.jsp" %>
