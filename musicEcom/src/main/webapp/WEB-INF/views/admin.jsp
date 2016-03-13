@@ -13,7 +13,7 @@
             <a href="<c:url value="/admin/productInventory" /> ">Product Inventory</a>
         </h3>
 
-        <p>Here you can view, check and modify the product inventory!</p>
+        <p>Here you can view xxxx, check and modify the product inventory!</p>
 </div>
 <div class="container">
 <%@ include file="/WEB-INF/views/template/footer.jsp" %>
