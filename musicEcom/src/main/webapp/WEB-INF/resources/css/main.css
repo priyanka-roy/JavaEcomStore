@@ -29,3 +29,4 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+a.colorLink.active { color:red; }

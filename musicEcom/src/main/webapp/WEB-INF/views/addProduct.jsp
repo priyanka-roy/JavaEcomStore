@@ -1,5 +1,6 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ include file="/WEB-INF/views/template/header.jsp" %>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 
 
 <div class="container-wrapper">
@@ -14,7 +15,7 @@
         <form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct"
                    method="post" commandName="product" enctype="multipart/form-data">
             <div class="form-group">
-                <label for="name">Name</label>
+                <label for="name"><spring:message code="label.productname"></spring:message></label>
                 <form:errors path="productName" cssStyle="color:#ff0000;" />
                 <form:input path="productName" id="name" class="form-Control" />
             </div>

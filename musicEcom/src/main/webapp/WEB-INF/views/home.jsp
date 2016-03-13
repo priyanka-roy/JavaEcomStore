@@ -1,6 +1,6 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ include file="/WEB-INF/views/template/header.jsp" %>
-
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
         <!-- Carousel
         ================================================== -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -15,9 +15,9 @@
                     <img class="first-slide home-image" src="<c:url value="/resources/images/back1.jpg" />" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Welcome to Healthy Bites Store.</h1>
-                            <h4>We Believe Natural Healthy Foods should always Tastes Good</h4>
-                            <p>Here you can browse and shop for a healthy bite. Nuts ,Dried fruits and Seeds. Order Now for Your Amazing New Kit!</p>
+                            <h1><spring:message code="home.welcomeheader"></spring:message></h1>
+                            <h4><spring:message code="home.desc"></spring:message></h4>
+                            <p><spring:message code="home.moredesc"></spring:message></p>
                         </div>
                     </div>
                 </div>
