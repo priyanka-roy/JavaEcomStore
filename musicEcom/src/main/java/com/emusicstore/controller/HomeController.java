@@ -76,9 +76,9 @@ public class HomeController {
     public String addProduct(Model model) {
 
         Product product = new Product();
-        product.setProductCategory("instrument");
-        product.setProductCondition("new");
-        product.setProductStatus("active");
+        product.setProductCategory("nuts");
+        //product.setProductCondition("new");
+        product.setProductStatus("available");
 
         model.addAttribute("product", product);
 

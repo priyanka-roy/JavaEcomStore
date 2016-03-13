@@ -21,9 +21,8 @@
                     <h3>${product.productName}</h3>
                     <p>${product.productDescription}</p>
                     <p><strong>Manufacturer</strong>: ${product.productManufacturer}</p>
-                    <p><strong>Category</strong>: ${product.productCategory}</p>
-                    <p><strong>Condition</strong>: ${product.productCondition}</p>
-                    <p>${product.productPrice} USD</p>
+                                     
+                    <p>${product.productPrice} EURO/gm</p>
                 </div>
             </div>
         </div>

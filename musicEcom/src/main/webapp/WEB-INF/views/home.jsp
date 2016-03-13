@@ -15,7 +15,8 @@
                     <img class="first-slide home-image" src="<c:url value="/resources/images/back1.jpg" />" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Welcome to Healthy Bites Store</h1>
+                            <h1>Welcome to Healthy Bites Store.</h1>
+                            <h4>We Believe Natural Healthy Foods should always Tastes Good</h4>
                             <p>Here you can browse and shop for a healthy bite. Nuts ,Dried fruits and Seeds. Order Now for Your Amazing New Kit!</p>
                         </div>
                     </div>
@@ -59,20 +60,20 @@
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Walnuts</h2>
+                    <img class="img-circle" src="<c:url value="/resources/images/walnuticon.jpg" />" alt="walnut" width="140" height="140">
+                    <h2>Nuts</h2>
                     <p>All About Omega3 Rich Foods and How it can help you.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Almonds</h2>
+                    <img class="img-circle" src="<c:url value="/resources/images/tea.jpg" />" alt="tea" width="140" height="140">
+                    <h2>Green Tea</h2>
                     <p>Eat more and get that glowing skin.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Chia Seeds</h2>
+                    <img class="img-circle" src="<c:url value="/resources/images/chia.jpg" />" alt="chia" width="140" height="140">
+                    <h2>SuperFoods</h2>
                     <p>Cut that inches out of your waist through this amazing trick.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
