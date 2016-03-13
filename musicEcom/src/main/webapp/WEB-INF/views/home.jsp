@@ -15,8 +15,8 @@
                     <img class="first-slide home-image" src="<c:url value="/resources/images/back1.jpg" />" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Welcome to Le's Music Store</h1>
-                            <p>Here you can browse and buy Instruments. Records and music related Accessories. Order How for Your Amazing New Kit!</p>
+                            <h1>Welcome to Healthy Bites Store</h1>
+                            <p>Here you can browse and shop for a healthy bite. Nuts ,Dried fruits and Seeds. Order Now for Your Amazing New Kit!</p>
                         </div>
                     </div>
                 </div>
@@ -24,8 +24,8 @@
                     <img class="second-slide home-image" src="<c:url value="/resources/images/back2.jpg" />" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Facts You Should know About Music</h1>
-                            <p>Music brings jey, to all of our hearts. It's one of those, emotional arts.</p>
+                            <h1>Facts You Should know About Healthy Bites</h1>
+                            <p>Eat Healthy Look Young Stay Fit.</p>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                     <img class="third-slide home-image " src="<c:url value="/resources/images/back3.jpg" />" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>It's A Jazz Affair</h1>
+                            <h1>It's A State of Mind</h1>
                             <p>Through ups and downs, Somehow I manage to survive in life.</p>
                         </div>
                     </div>
@@ -60,20 +60,20 @@
             <div class="row">
                 <div class="col-lg-4">
                     <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <h2>Walnuts</h2>
+                    <p>All About Omega3 Rich Foods and How it can help you.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <h2>Almonds</h2>
+                    <p>Eat more and get that glowing skin.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <h2>Chia Seeds</h2>
+                    <p>Cut that inches out of your waist through this amazing trick.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->

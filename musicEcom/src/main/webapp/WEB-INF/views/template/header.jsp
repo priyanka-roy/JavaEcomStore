@@ -44,6 +44,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="<c:url value="/"/>">Home</a></li>
                         <li><a href="<c:url value="/productList"/>">Products</a></li>
+                          <li><a href="<c:url value="/productList"/>">Testimonials</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                     <ul class="nav navbar-nav pull-right">
