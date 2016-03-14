@@ -5,7 +5,8 @@
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
-            <h1>Product Inventory Page(Admin Rights Only)</h1>
+        	<h6>Welcome Admin</h6>
+            <h1>Product Inventory Page</h1>
 
 
             <p class="lead">This is the product inventory page:</p>
