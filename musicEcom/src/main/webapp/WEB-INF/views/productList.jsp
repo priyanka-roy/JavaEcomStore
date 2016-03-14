@@ -19,7 +19,7 @@
                     <th>Category</th>
                     
                     <th>Price</th>
-                    <th>Price</th>
+                    <th>Information</th>
                 </tr>
             </thead>
             <c:forEach items="${products}" var="product">

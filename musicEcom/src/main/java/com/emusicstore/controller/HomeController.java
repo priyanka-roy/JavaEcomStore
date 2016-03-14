@@ -86,7 +86,7 @@ public class HomeController {
     }
 
     @RequestMapping(value = "/admin/productInventory/addProduct", method = RequestMethod.POST)
-    public String addProductPost(@Valid @ModelAttribute("product") Product product, BindingResult result, HttpServletRequest request) {
+    public String updateaddProductJsp(@Valid @ModelAttribute("product") Product product, BindingResult result, HttpServletRequest request) {
 
         if(result.hasErrors()){
             return "addProduct";
