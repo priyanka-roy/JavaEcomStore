@@ -1,15 +1,20 @@
-package com.emusicstore.model;
+package com.estore.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.web.multipart.MultipartFile;
+
+import java.io.Serializable;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;
 
 @Entity
-public class Product {
+public class Product implements Serializable{
 
-    @Id
+ 
+	private static final long serialVersionUID = -5684031680543919300L;
+
+	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long  productId = 0L;
 

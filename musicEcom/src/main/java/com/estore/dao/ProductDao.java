@@ -1,9 +1,9 @@
-package com.emusicstore.dao;
+package com.estore.dao;
 
-
-import com.emusicstore.model.Product;
 
 import java.util.List;
+
+import com.estore.model.Product;
 
 public interface ProductDao {
 
@@ -13,7 +13,7 @@ public interface ProductDao {
 
     Product getProductById(Long id);
 
-    List<Product> getAllProducts();
+    List<Product> getProductList();
 
-    void deleteProduct(Long id);
+    void deleteProduct(Product product);
 }
